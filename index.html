@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="game-container">
+        <div class="head">
+            <u>[Get a membership] [My account]</u>
+        </div>
+        <h1 class="title">2048.org</h1>
+        <div class="score-container">
+            <div class="score">Score: <span id="score">0</span></div>
+            <div class="best">Best: <span id="best">0</span></div>
+        </div>
+        <p>Join numbers to get to</p>
+        <p>the 2048 tile!</p><button id="newGameButton">New Game</button>
+     
+        
+        <div class="grid-container">
+            <div class="grid">
+               
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+        </div>
+       
+        <div class="game-over" id="gameOver">
+            <p>Game Over</p>
+            <button id="tryAgainButton">Try Again</button>
+        </div>
+        <p class="game-explanation">
+        <strong class="important">HOW TO PLAY 2048:</strong> Use your <strong>arrow keys</strong> <br>to move the tiles. When two tiles with <br> the same number touch, they <br><strong>merge into one!</strong>
+        </p>
+        <div class="game-over" id="win">
+          <p>You Win!</p>
+          <button id="newGameButton">New Game</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
